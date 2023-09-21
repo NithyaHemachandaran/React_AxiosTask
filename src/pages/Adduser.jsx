@@ -7,6 +7,7 @@ import Form from "react-bootstrap/Form";
 import { useState } from 'react';
 
 function Adduser() {
+  
 
   const name=useRef("");
   const userName=useRef("");
@@ -23,6 +24,7 @@ function Adduser() {
   const addUserHandler=()=>{
     
     var payload={
+
       name:name.current.value,
       username:userName.current.value,
       email:email.current.value,

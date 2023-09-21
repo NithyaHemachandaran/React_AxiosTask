@@ -78,7 +78,7 @@ function Allusers() {
                 
                 <Button
 	  variant="primary"
-	  onClick={() => navigate(`/update-user/${item}`)}	>
+	  onClick={() => navigate(`/update-user/${item.id}`)}	>
 	  Edit
 	</Button>
   <Button  variant="danger"
